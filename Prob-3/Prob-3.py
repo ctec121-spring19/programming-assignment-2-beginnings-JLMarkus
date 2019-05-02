@@ -2,7 +2,7 @@
 #   Programming Assignment 2
 #     Prob-3.py
 
-# YOUR NAME
+# Jason Markus
 
 def example():
     print("\nExample Output")
@@ -21,22 +21,25 @@ def example():
 
 def studentCode():
     # replace <name> with your name
-    print("\n<name>'s Output")
+    print("\nJason's Output")
     
     # print a blank line
     print()
 
     # replicate the assignment statement above, but use your own variable
     # names and values
-
+    x1, x2, x3 = 13, 12.34, "howdy"
     # print the values of the 3 variables
-
+    print("x1:", x1)
+    print("x2:", x2)
+    print("x3:", x3)
     # Get 3 values from the user and assign them to the variables defined
     # above. See the page in Canvas on Simulataneous Assignment
     # BONUS POINTS for using the split() method
-
+    x1, x2, x3 = input("Enter 3 values: ").split()
     print()
-
+    print("x1:", x1)
+    print("x2:", x2)
+    print("x3:", x3)
 example()
 studentCode()
-
